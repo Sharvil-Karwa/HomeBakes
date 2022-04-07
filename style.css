@@ -2,6 +2,9 @@ body{
     position: relative;
     justify-content: center;
 }
+/* h2{
+    text-decoration: underline #f6c0b6 5px;
+} */
 .first{
     background-color: #fde6e2;
     position: relative;
@@ -17,9 +20,6 @@ nav{
     position: absolute;
     padding: 2rem;
 }
-nav a{
-    font-size: 1.5rem;
-}
 .nav-right{
     display: flex;
     flex-direction: row;
@@ -27,13 +27,6 @@ nav a{
 }
 .nav-right a{
     color: black
-}
-.home-page{
-    margin: 7rem 5rem 0rem;
-    padding: auto 2rem;
-}
-.recipe{
-    margin: 2rem 5rem;
 }
 .fContent{
     text-align: left;
@@ -48,7 +41,10 @@ nav a{
     margin-left: 4rem;
 }
 .second{
-    margin: 3rem 2rem;
+    padding: 3rem 7rem;
+}
+.recipe{
+    margin: 2rem 5rem;
 }
 .card{
     position: relative;
@@ -79,13 +75,12 @@ li{
     padding: 7rem;
 }
 footer{
-    display: flex;
-    flex-direction: row;
     background-color: gray;
+    padding: 2rem 4rem;
+    width: 100%;
+    margin: 0px;
 }
-.fItem{
-    margin: 2rem;
-}
+
 #lady{
     width: 100%;
 }
@@ -105,6 +100,42 @@ footer{
 .fItem{
     color: white;
 }
-.fTopic{
+.footTopic{
     font-weight: bold;
+}
+@media (min-width:769px){
+    nav a{
+        font-size: 1.5rem;
+    }
+    .home-page{
+        margin: 7rem 5rem 0rem;
+        padding: auto 2rem;
+    }
+}
+@media (max-width:769px){
+    nav a{
+        font-size: 2rem;
+    }
+    .home-page{
+        margin: 8rem 5rem 0rem;
+        padding: auto 2rem;
+    }
+    .card h1{
+        font-size: 2rem;
+    }
+    .card h3{
+        font-size: 1.5rem;
+    }
+    .card li{
+        font-size: 1rem;
+    }
+}
+h2{
+    line-height: 0.5;
+}
+hr{
+    margin-left: 1rem;
+    width: 20%;
+    border: solid rgb(255, 0, 0);
+    border-radius: 3px;
 }
