@@ -1,0 +1,110 @@
+body{
+    position: relative;
+    justify-content: center;
+}
+.first{
+    background-color: #fde6e2;
+    position: relative;
+    background-image: url("ellipse90.png");
+    /* background-attachment:fixed; */
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+nav{
+    position: absolute;
+    padding: 2rem;
+}
+nav a{
+    font-size: 1.5rem;
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.nav-right a{
+    color: black
+}
+.home-page{
+    margin: 7rem 5rem 0rem;
+    padding: auto 2rem;
+}
+.recipe{
+    margin: 2rem 5rem;
+}
+.fContent{
+    text-align: left;
+}
+.fContent h1{
+    max-width: 90%;
+    font-size: 3rem;
+    margin-left: 4rem;
+}
+.fContent p{
+    font-size: 1.5rem;
+    margin-left: 4rem;
+}
+.second{
+    margin: 3rem 2rem;
+}
+.card{
+    position: relative;
+    margin: 1rem;
+    background-color: #fde6e2;
+    border-radius: 1rem;
+    text-align: left;
+    padding: 1rem;
+}
+.itemImg{
+    position: absolute;
+    right: -2rem;
+    top: -3rem;
+}
+.e1{
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    width: 8rem
+}
+.secondTitle{
+    margin-left: 6rem;
+}
+li{
+    font-size: 1.2rem;
+}
+.third{
+    padding: 7rem;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+}
+.fItem{
+    margin: 2rem;
+}
+#lady{
+    width: 100%;
+}
+.topic{
+    font-size: 1.5rem;
+}
+.content{
+    font-size: 1rem;
+}
+.trick{
+    text-align: left;
+}
+.third{
+    background-color: #fde6e2;
+    padding: 5rem;
+}
+.fItem{
+    color: white;
+}
+.fTopic{
+    font-weight: bold;
+}
