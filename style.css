@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 body{
     position: relative;
     justify-content: center;
@@ -28,6 +32,10 @@ nav{
 .nav-right a{
     color: black
 }
+.nav-right a:hover{
+    color: red;
+}
+
 .fContent{
     text-align: left;
 }
@@ -39,9 +47,6 @@ nav{
 .fContent p{
     font-size: 1.5rem;
     margin-left: 4rem;
-}
-.second{
-    padding: 3rem 7rem;
 }
 .recipe{
     margin: 2rem 5rem;
@@ -71,11 +76,11 @@ nav{
 li{
     font-size: 1.2rem;
 }
-.third{
+/* .third{
     padding: 7rem;
-}
+} */
 footer{
-    background-color: gray;
+    background-color: #5a5a5a;
     padding: 2rem 4rem;
     width: 100%;
     margin: 0px;
@@ -85,10 +90,11 @@ footer{
     width: 100%;
 }
 .topic{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 .content{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .trick{
     text-align: left;
@@ -111,6 +117,9 @@ footer{
         margin: 7rem 5rem 0rem;
         padding: auto 2rem;
     }
+    .second{
+        padding: 3rem 7rem;
+    }
 }
 @media (max-width:769px){
     nav a{
@@ -129,13 +138,26 @@ footer{
     .card li{
         font-size: 1rem;
     }
+    .second{
+        padding: 3rem 5rem;
+    }
+}
+.sceond{
+    position: relative;
 }
 h2{
     line-height: 0.5;
+    font-weight: bolder;
 }
 hr{
     margin-left: 1rem;
     width: 20%;
     border: solid rgb(255, 0, 0);
     border-radius: 3px;
+}
+#e180{
+    position: absolute;
+    right: 0;
+    width: 8rem;
+    bottom: 27%
 }
